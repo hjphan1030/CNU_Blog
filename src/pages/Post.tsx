@@ -61,6 +61,9 @@ const Text = styled.p`
 
 const Post = () => {
   // todo (4) post 컴포넌트 작성
+  const params = useParams();
+  const {postId} = params;
+  console.info(postId);
   return <div style={{ margin: '5.5rem auto', width: '700px' }}></div>;
 };
 
